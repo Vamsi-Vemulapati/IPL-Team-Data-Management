@@ -6,10 +6,9 @@ create index MI_BOWLER on MI_BOWLERS(name);
 
 -- ****** RETREVING ALL INFO OF AN MI ALL ROUNDER *******
 call ALL_DATA_OF_A_MI_ALL_ROUNDER('tim david'); 
--- 															END OF MI TEAM DATA											
--- 											#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
---  															CSK TEAM DATA
--- 											#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#* 
+									
+-- 							#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+ 
 -- ******* Retreving all info of a CSK Batter ********
 create index CSK_BATTER on CSK_BATTING_PLAYERS_DATA(name);
 
@@ -18,10 +17,9 @@ create index CSK_BOWLER on CSK_BOWLERS(name);
 
 -- ****** RETREVING ALL INFO OF AN CSK ALL ROUNDER *******
 call ALL_DATA_OF_A_CSK_ALL_ROUNDER('Mooen ali'); 
--- 															END OF CSK TEAM DATA 
--- 											#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#* 
--- 		                                               		  RCB PLAYERS DATA
---  										#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*
+
+-- 						 #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#* 
+
 -- ****** RETREVING ALL INFO OF AN RCB BATTER ******
 create index RCB_BATTER on RCB_BATTING_PLAYERS_DATA(name);
 
