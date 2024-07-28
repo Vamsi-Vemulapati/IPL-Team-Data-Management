@@ -40,7 +40,7 @@ call ALL_DATA_OF_A_MI_BOWLER('jasprit Bumrah');
 -- ****** RETREVING ALL INFO OF AN MI ALL ROUNDER *******
 call ALL_DATA_OF_A_MI_ALL_ROUNDER('tim david'); 
 								
--- 											#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+-- 		#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
 
 -- ******* inserting data based on user input *******
 call CSK_BATTERS(); 
@@ -72,7 +72,7 @@ call ALL_DATA_OF_A_CSK_BATTER('Ms dhoni');
 -- ****** Retreving all info a CSK Bowler ******
  call ALL_DATA_OF_A_CSK_BOWLER('Ravindra Jadeja');
 
- -- 											#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#* 
+ -- 		#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#* 
 
 -- ******  inserting values as per user wish  ********
 call  RCB_BATTERS();
@@ -106,4 +106,4 @@ call ALL_DATA_OF_A_BOWLER('Dale Steyn');
 
 -- *******  Shows avg of RCB Batters  *********
 call AVG_DATA_OF_A_BATTERS; 
--- 														 ______________END OF RCB DATA_________________ 
+-- 														 
