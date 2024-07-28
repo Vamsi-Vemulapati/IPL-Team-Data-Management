@@ -13,10 +13,10 @@ begin
 select * from IPL_TEAMS;
 end //
 delimiter ;
--- 										#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
---  												Queries for individual teams
--- 														BEGIN OF MI DATA
--- 										#*#*#*#*#*#*#*#**#*#*#**#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*#*	
+-- 								#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+--  										Queries for individual teams
+-- 											BEGIN OF MI DATA
+-- 								#*#*#*#*#*#*#*#**#*#*#**#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*#*	
 --  #####Creating a procedure for data entry into table based on user inputs#####
 delimiter //
 create procedure MI_BATTERS(in t21 int,in t22 varchar(50),in t23 int,in t24 int,in t25 int,in t26 int,in t27 int)
@@ -159,10 +159,10 @@ begin
 select * from MI_ALL_ROUNDERS where name=v;
 end //
 delimiter ;
--- 															END OF MI TEAM DATA											
--- 											#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
---  															CSK TEAM DATA
--- 											#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#* 
+-- 										END OF MI TEAM DATA											
+-- 								#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+--  										   CSK TEAM DATA
+-- 								#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#* 
 -- ##### Creating a procedure for data entry of batters in csk #####
 delimiter //
 create procedure CSK_BATTERS(in t21 int,in t22 varchar(50),in t23 int,in t24 int,in t25 int,in t26 int,in t27 int)
@@ -292,9 +292,9 @@ begin
 select * from CSK_BOWLERS where name=v;
 end //
 delimiter ;
--- 											#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#* 
--- 		                                               ____ RCB PLAYERS DATA___ 
---  										#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*
+-- 								#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#* 
+-- 		                                               			 RCB PLAYERS DATA 
+--  								#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*
 -- ##### Creating a procedure for data entry of batters in rcb based on user wish ######
 delimiter //
 create procedure RCB_BATTERS(in t21 int,in t22 varchar(50),in t23 int,in t24 int,in t25 int,in t26 int,in t27 int)
@@ -417,7 +417,7 @@ begin
 select avg(total_runs) from  RCB_BATTING_PLAYERS_DATA;
 end //
 delimiter ;
--- 												______________END OF RCB DATA________________
+-- 									*******END OF RCB DATA********
 
 
 
