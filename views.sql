@@ -32,10 +32,9 @@ LEFT JOIN
 -- Select from the view
 SELECT * FROM MI_PLAYERS;
 select batter_name from MI_PLAYERS;
--- 															END OF MI TEAM DATA											
+									
 -- 											#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
---  															CSK TEAM DATA
--- 											#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#* 
+
 -- ********* creating a view which will represent all the above tables into a single table *********
  CREATE VIEW CSK_PLAYERS AS
 SELECT 
@@ -70,8 +69,7 @@ SELECT * FROM CSK_PLAYERS;
 select batter_name from CSK_PLAYERS;
 
 -- 											#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#* 
--- 		                                               ____ RCB PLAYERS DATA___ 
---  										#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*
+
 -- ********* creating a view which will represent all the above tables into a single table *********
  CREATE VIEW RCB_PLAYERS AS
 SELECT 
