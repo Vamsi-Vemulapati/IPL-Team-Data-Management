@@ -4,10 +4,10 @@ create database IPL_TEAM_DATA;
 use IPL_TEAM_DATA;
 -- table for IPL Teams
 create table IPL_TEAMS(sl_no int primary key,name varchar(23),short_cut_name varchar(23));
--- 										                               #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
---  											                                       	Queries for individual teams
--- 														                                          BEGIN OF MI DATA
--- 										                               #*#*#*#*#*#*#*#**#*#*#**#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*#*
+-- 										                 #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+--  											                            Queries for individual teams
+-- 														                                BEGIN OF MI DATA
+-- 										                 #*#*#*#*#*#*#*#**#*#*#**#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*#*
 -- MI BATTERS DATA TABLE 
 create table MI_BATTING_PLAYERS_DATA(sl_no int primary key,
 name varchar(50),
@@ -38,10 +38,10 @@ wickets int,
 economy int,
 best_figures varchar(10));
 
--- 															                                            END OF MI TEAM DATA											
--- 											                                  #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
---  															                                              CSK TEAM DATA
--- 											                                  #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#* 
+-- 															                            END OF MI TEAM DATA											
+-- 											                #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+--  															                              CSK TEAM DATA
+-- 											                #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#* 
 
 -- CSK BATTERS TABLE
 create table CSK_BATTING_PLAYERS_DATA(sl_no int primary key,
@@ -72,10 +72,10 @@ total_runs int,
 wickets int,
 economy int,
 best_figures varchar(10));
---                                                                  END OF CSK DATA
--- 											                                    #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#* 
--- 		                                                               RCB PLAYERS DATA  
---  										                                    #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*
+--                                               END OF CSK DATA
+-- 											                 #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#* 
+-- 		                                            RCB PLAYERS DATA  
+--  										                 #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*
 
 -- table creation for rcb players(batting) data
 create table RCB_BATTING_PLAYERS_DATA(sl_no int primary key,
