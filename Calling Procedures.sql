@@ -3,10 +3,10 @@ CALL  IPL_TEAMS_DATA(1,"Chennai_Super_Kings","CSK");
 
 -- showing all IPL Teams
 call  show_ipl_teams();
--- 		#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
---  		  Queries for individual teams
--- 								 BEGIN OF MI DATA
--- 		#*#*#*#*#*#*#*#**#*#*#**#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*#*	
+-- 		       #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+--  		             Queries for individual teams
+-- 								           BEGIN OF MI DATA
+-- 		      #*#*#*#*#*#*#*#**#*#*#**#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*#*	
 -- inserting batters data based on user input
 CALL MI_BATTERS();
 -- Shows all mi batters data 
