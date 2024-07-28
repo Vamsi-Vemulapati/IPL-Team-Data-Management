@@ -4,7 +4,7 @@ create database IPL_TEAM_DATA;
 use IPL_TEAM_DATA;
 -- table for IPL Teams
 create table IPL_TEAMS(sl_no int primary key,name varchar(23),short_cut_name varchar(23));
--- 										#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+-- 										 #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
 --  												Queries for individual teams
 -- 														BEGIN OF MI DATA
 -- 										#*#*#*#*#*#*#*#**#*#*#**#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*#*
