@@ -18,7 +18,7 @@ create index CSK_BOWLER on CSK_BOWLERS(name);
 -- ****** RETREVING ALL INFO OF AN CSK ALL ROUNDER *******
 call ALL_DATA_OF_A_CSK_ALL_ROUNDER('Mooen ali'); 
 
--- 						 #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#* 
+-- 						       #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#* 
 
 -- ****** RETREVING ALL INFO OF AN RCB BATTER ******
 create index RCB_BATTER on RCB_BATTING_PLAYERS_DATA(name);
