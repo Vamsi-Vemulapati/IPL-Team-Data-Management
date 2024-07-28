@@ -3,10 +3,9 @@ CALL  IPL_TEAMS_DATA(1,"Chennai_Super_Kings","CSK");
 
 -- showing all IPL Teams
 call  show_ipl_teams();
+
 -- 		       #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
---  		             Queries for individual teams
--- 								           BEGIN OF MI DATA
--- 		      #*#*#*#*#*#*#*#**#*#*#**#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*#*	
+
 -- inserting batters data based on user input
 CALL MI_BATTERS();
 -- Shows all mi batters data 
@@ -40,10 +39,9 @@ call ALL_DATA_OF_A_MI_BOWLER('jasprit Bumrah');
 
 -- ****** RETREVING ALL INFO OF AN MI ALL ROUNDER *******
 call ALL_DATA_OF_A_MI_ALL_ROUNDER('tim david'); 
--- 															END OF MI TEAM DATA											
+								
 -- 											#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
---  															CSK TEAM DATA
--- 											#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#* 
+
 -- ******* inserting data based on user input *******
 call CSK_BATTERS(); 
 -- ******** retreving all info of CSK batters ******* 
@@ -73,9 +71,9 @@ call ALL_DATA_OF_A_CSK_BATTER('Ms dhoni');
 
 -- ****** Retreving all info a CSK Bowler ******
  call ALL_DATA_OF_A_CSK_BOWLER('Ravindra Jadeja');
+
  -- 											#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#* 
--- 		                                               ____ RCB PLAYERS DATA___ 
---  										#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*
+
 -- ******  inserting values as per user wish  ********
 call  RCB_BATTERS();
 -- showing all data batters in rcb squad
