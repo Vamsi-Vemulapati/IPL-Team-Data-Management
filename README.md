@@ -7,7 +7,6 @@ This project provides a comprehensive data management system for IPL team data u
 
 - **sql-scripts/**
   - `Tables Creation.sql`: Contains SQL commands to create the necessary tables for IPL teams, players, and statistics.
-  - `insert_data.sql`: Contains SQL commands to insert initial data into the tables for IPL teams and players.
   - `stored Procedures.sql`: Contains SQL commands to create stored procedures for data insertion, retrieval, and manipulation.
   - `calling procedures.sql`: Contains SQL commands to call the stored procedures and demonstrate their functionality.
   - `views.sql`: Contains SQL commands to create views for aggregating and simplifying data retrieval.
@@ -17,7 +16,7 @@ This project provides a comprehensive data management system for IPL team data u
 ## Usage
 
 1. **Create Tables:**
-   - Run the `create_tables.sql` script to create the necessary tables for the IPL team data.
+   - Run the `Tables Creation.sql` script to create the necessary tables for the IPL team data.
    ```sql
    source sql-scripts/create_tables.sql;
 2. **Create Stored Procedures:**
