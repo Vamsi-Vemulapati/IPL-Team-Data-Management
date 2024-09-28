@@ -1,5 +1,5 @@
-# IPL-Team-Data-Management
-# IPL Team Data Management
+# SPORTS-Team-Data-Management
+# SPORTS Team Data Management
 
 This project provides a comprehensive data management system for IPL team data using SQL. It includes the creation of tables, insertion of data, stored procedures, views, and indexes for efficient data manipulation and retrieval.
 
